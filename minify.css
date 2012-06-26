@@ -1,0 +1,116 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Optima", "Lucida Grande", "Verdana", "Tahoma", sans-serif, "arial";
+    font-size: xx-small;
+}
+#content {
+    margin-top: 5em;
+    font-size: 1.25em;
+}
+
+.active {
+    background-color: #ccc;
+}
+#main {
+    margin: 0 auto;
+}
+textarea#hostlist {
+    border: 3px solid #babaff;
+    padding: 5px;
+    display: block;
+    margin-bottom: 1em;
+    font-family: "Optima", "Lucida Grande", "Verdana", "Tahoma", "Arial";
+    font-size: 1.25em;
+}
+#content button {
+    padding: 0.5em;
+    width: 10em;
+    background-color: #ccc;
+    font-weight: bold;
+}
+#content button:hover {
+    background-color: #33F;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+        
+#result {
+    font-size: 2em;
+    display: inline-block;
+    position: absolute;
+    padding: 1.5em;
+    background-color: #BABAFF;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.close {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    display: block;
+    z-index: 1;
+}
+
+#buttons {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+#buttons ul {
+    float: left;
+    position: relative;
+    left: 50%;
+    list-style: none;
+}
+
+#buttons li {
+    float: left;
+    position: relative;
+}
+
+#buttons a {
+    text-decoration: none;
+                color: black;
+    margin: 1em;
+    padding: 0.5em 2em;
+    background: #BABAFF;
+    border-radius: 4px;
+    font-size: 1.25em;
+    float: left;
+    text-align: center;
+}
+#buttons a:hover {
+        background-color: #777;
+}
+
+a.feedback {
+	padding: 1em 3em;
+	text-decoration: none;
+	font-size: 1.2em;
+	background-color: #BABAFF;	
+	position: fixed;
+	border-radius: 4px;
+	font-weight: bold;
+	color: black;
+	bottom: 0;
+	right: 0;
+}
+
